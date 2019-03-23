@@ -1,0 +1,18 @@
+<mvc:View
+	controllerName="tutor.controller.App"
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc">
+	<l:Grid
+			containerQuery="true"
+					position="Center"
+					width="65%">
+		<Button
+			text="{/newOption/sv}"
+			press=".onShowHello"/>
+		
+	</l:Grid>
+	<Input	
+			value="{/newOption/sv}"
+			valueLiveUpdate = "true"/>
+</mvc:View>
