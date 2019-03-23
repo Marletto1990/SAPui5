@@ -6,7 +6,7 @@ sap.ui.define(
       onInit: function() {
         var oModel = new JSONModel({
           newOption: {
-            sv: "1st"
+            sv: "1-st"
           }
         });
         this.getView().setModel(oModel);
